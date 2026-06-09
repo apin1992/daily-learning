@@ -1,12 +1,27 @@
+let isRaining = false;
 
-let age = 100;
-
-if (age > 18) {
-    console.log("Access granted. Enjoy the movie!");
+if (isRaining) {
+    console.log("Don't forget to take an umbrella!");
 } else {
-    console.log("Access denied. You must be at least 18 years old to watch this movie.");
+    console.log("Enjoy the sunny weather!");
 }
 
+// let hasTicket = true;
+// let isWearingShoes = false;
+
+// if (hasTicket && isWearingShoes) {
+//     console.log("You can enter the movie theater.");
+// } else {
+//     console.log("You cannot enter the movie theater. Please make sure you have a ticket and are wearing shoes.");
+// }
+
+// let age = 100;
+
+// if (age > 18) {
+//     console.log("Access granted. Enjoy the movie!");
+// } else {
+//     console.log("Access denied. You must be at least 18 years old to watch this movie.");
+// }
 
 // this is a comment
 
