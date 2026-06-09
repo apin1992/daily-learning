@@ -1,13 +1,30 @@
 // // // this is a comment
 
-const user = {
-    name: "Boba",
-    age: 40,
-    height: 1.65, // meters
-    weight: 90 // kilos
+let direction = "to the left";
+
+switch (direction) {
+    case "north":
+        console.log("you walk into a dark forest");
+        break;
+    case "left":
+        console.log("you stumble into a hidden cave");
+        break;
+    case "right":
+        console.log("you find a hidden treasure");
+        break;
+    default:
+        console.log("you walk into a wall");
 };
 
-console.log(user.height);
+
+// const user = {
+//     name: "Boba",
+//     age: 40,
+//     height: 1.65, // meters
+//     weight: 90 // kilos
+// };
+
+// console.log(user.height);
 
 
 //const numbers = [1, 2, 3];
