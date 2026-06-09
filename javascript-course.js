@@ -1,20 +1,40 @@
-// // // this is a comment
 
-let direction = "to the left";
+let age = 100;
 
-switch (direction) {
-    case "north":
-        console.log("you walk into a dark forest");
-        break;
-    case "left":
-        console.log("you stumble into a hidden cave");
-        break;
-    case "right":
-        console.log("you find a hidden treasure");
-        break;
-    default:
-        console.log("you walk into a wall");
-};
+if (age > 18) {
+    console.log("Access granted. Enjoy the movie!");
+} else {
+    console.log("Access denied. You must be at least 18 years old to watch this movie.");
+}
+
+
+// this is a comment
+
+// let temperature = 8;
+
+// if (temperature > 30) {
+//     console.log("It's scrothing outside! Wear shorts.");
+// } else if (temperature >= 15) {
+//     console.log("Beautiful day! A t-shirt is fine");
+// } else {
+//     console.log("It's cold! Wear a jacket.");
+// }
+
+// let direction = "to the left";
+
+// switch (direction) {
+//     case "north":
+//         console.log("you walk into a dark forest");
+//         break;
+//     case "left":
+//         console.log("you stumble into a hidden cave");
+//         break;
+//     case "right":
+//         console.log("you find a hidden treasure");
+//         break;
+//     default:
+//         console.log("you walk into a wall");
+// };
 
 
 // const user = {
