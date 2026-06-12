@@ -1,5 +1,9 @@
 
 
+let userCartTotal = 1;
+let shippingCost = userCartTotal ? 5 : 0;
+console.log("Shipping cost:", shippingCost);
+
 // let age = 20;
 // let canVote;
 
@@ -13,10 +17,9 @@
 // so instead of writing the above code, 
 // we can write it in a more concise way using a ternary operator
 
-let age=10;
-let canVote = age >= 18 ? "yes" : "no";
-console.log("Can vote:", canVote);
-
+// let age=10;
+// let canVote = age >= 18 ? "yes" : "no";
+// console.log("Can vote:", canVote);
 
 // let username = "Boba";
 
