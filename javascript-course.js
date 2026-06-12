@@ -1,10 +1,37 @@
-let isRaining = false;
 
-if (isRaining) {
-    console.log("Don't forget to take an umbrella!");
-} else {
-    console.log("Enjoy the sunny weather!");
-}
+
+// let age = 20;
+// let canVote;
+
+// if (age >= 18) {
+//     canVote = true;
+// } else {
+//     canVote = false;
+// }
+// console.log("Can vote:", canVote);
+
+// so instead of writing the above code, 
+// we can write it in a more concise way using a ternary operator
+
+let age=10;
+let canVote = age >= 18 ? "yes" : "no";
+console.log("Can vote:", canVote);
+
+
+// let username = "Boba";
+
+// if (username) {
+//     console.log("Welcome back, " + username + "!");
+// } else {
+//     console.log("Welcome, guest! Please log in.");
+// }
+// let isRaining = false;
+
+// if (isRaining) {
+//     console.log("Don't forget to take an umbrella!");
+// } else {
+//     console.log("Enjoy the sunny weather!");
+// }
 
 // let hasTicket = true;
 // let isWearingShoes = false;
