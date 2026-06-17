@@ -1,14 +1,32 @@
-function cleanUserName(rawName) {
+function titleCase(sentence) {
+    if (!sentence) return "";
 
-    let cleanSpace = rawName.trim();
+    let words = sentence.split(" ");
 
-    return cleanSpace.charAt(0).toUpperCase() + cleanSpace.slice(1).toLowerCase();
+    let capitalizedWords = words.map(word => {
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    });
+
+    return capitalizedWords.join(" ");
 }
 
-let messyInput = " bOBa ";
-let properUsername = cleanUserName(messyInput);
+let gameTitle = "the legend of zelda: breath of the wild";
+console.log(titleCase(gameTitle));   // Output: "The Legend Of Zelda: Breath Of The Wild"
 
-console.log(`Welcom back, ${properUsername}!`);   // Output: "Welcome back, Boba!"
+let videoTitle = "a new hope";
+console.log(titleCase(videoTitle));   // Output: "A New Hope"
+
+// function cleanUserName(rawName) {
+
+//     let cleanSpace = rawName.trim();
+
+//     return cleanSpace.charAt(0).toUpperCase() + cleanSpace.slice(1).toLowerCase();
+// }
+
+// let messyInput = " bOBa ";
+// let properUsername = cleanUserName(messyInput);
+
+// console.log(`Welcom back, ${properUsername}!`);   // Output: "Welcome back, Boba!"
 // function capitalizeText(str) {
 //     if (!str) return "";
 //     return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
