@@ -1,8 +1,38 @@
+function cleanUserName(rawName) {
 
+    let cleanSpace = rawName.trim();
 
-let userCartTotal = 1;
-let shippingCost = userCartTotal ? 5 : 0;
-console.log("Shipping cost:", shippingCost);
+    return cleanSpace.charAt(0).toUpperCase() + cleanSpace.slice(1).toLowerCase();
+}
+
+let messyInput = " bOBa ";
+let properUsername = cleanUserName(messyInput);
+
+console.log(`Welcom back, ${properUsername}!`);   // Output: "Welcome back, Boba!"
+// function capitalizeText(str) {
+//     if (!str) return "";
+//     return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+// }
+
+// console.log(capitalizeText("boba plays PC games"));   // Output: "Boba plays pc games"
+// console.log(capitalizeText("wOw mODS aRe COol"));
+// let text = "boba plays PC games";
+
+// let capitalized = text.charAt(0).toUpperCase() + text.slice(1);
+
+// console.log(capitalized);   // Output: "Boba plays pc games"
+
+// let text = "Hello, world!";
+// let capitalized = text.charAt(0).toUpperCase() + text.slice(1);
+// console.log(capitalized);   // Output: "Hello, world!"
+
+// let text = "Hello, world!";
+// let capitalizedText = text.toUpperCase();
+// console.log(capitalizedText);   // Output: "HELLO, WORLD!"
+
+// let userCartTotal = 1;
+// let shippingCost = userCartTotal ? 5 : 0;
+// console.log("Shipping cost:", shippingCost);
 
 // let age = 20;
 // let canVote;
@@ -92,9 +122,9 @@ console.log("Shipping cost:", shippingCost);
 // console.log(user.height);
 
 
-//const numbers = [1, 2, 3];
+// const numbers = [1, 2, 3];
 
-//numbers.forEach(n => console.log(n));
+// numbers.forEach(n => console.log(n));
 
 // const fruits = ["apple", "orange", "bannana"];
 // fruits.forEach(f => console.log(f));
