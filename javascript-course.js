@@ -1,11 +1,32 @@
 
-let shoppingList = ["milk", "eggs", "bread", "butter"];
+let playList = ["song1", "song2", "song3", "song4"];
 
-// console.log(shoppingList.length)
+playList.splice(2, 2);
+console.log(playList);
 
-// shoppingList.push("cheese");
-shoppingList[2] = "cheese";
-console.log(shoppingList);
+// playList.pop();
+
+// console.log(playList);
+
+// playList.shift();
+
+// console.log(playList);
+
+// console.log("Total songs in playlist:", playList.length);
+
+// playList.push("song5");
+
+// console.log("Updated playlist:", playList);
+
+// console.log("Now playing:", playList[2]);
+
+// let shoppingList = ["milk", "eggs", "bread", "butter"];
+
+// // console.log(shoppingList.length)
+
+// // shoppingList.push("cheese");
+// shoppingList[2] = "cheese";
+// console.log(shoppingList);
 
 // let videoGames = ["Mario", "Zelda", "Metroid", "Kirby"];
 // let highScores = [100, 200, 300, 400];
