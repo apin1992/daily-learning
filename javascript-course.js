@@ -1,20 +1,37 @@
-function titleCase(sentence) {
-    if (!sentence) return "";
 
-    let words = sentence.split(" ");
+let shoppingList = ["milk", "eggs", "bread", "butter"];
 
-    let capitalizedWords = words.map(word => {
-        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-    });
+// console.log(shoppingList.length)
 
-    return capitalizedWords.join(" ");
-}
+// shoppingList.push("cheese");
+shoppingList[2] = "cheese";
+console.log(shoppingList);
 
-let gameTitle = "the legend of zelda: breath of the wild";
-console.log(titleCase(gameTitle));   // Output: "The Legend Of Zelda: Breath Of The Wild"
+// let videoGames = ["Mario", "Zelda", "Metroid", "Kirby"];
+// let highScores = [100, 200, 300, 400];
 
-let videoTitle = "a new hope";
-console.log(titleCase(videoTitle));   // Output: "A New Hope"
+// // console.log(videoGames[0]);
+// console.log(videoGames[1]);
+// // console.log(videoGames[2]);
+// // console.log(videoGames[3]);
+
+// function titleCase(sentence) {
+//     if (!sentence) return "";
+
+//     let words = sentence.split(" ");
+
+//     let capitalizedWords = words.map(word => {
+//         return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+//     });
+
+//     return capitalizedWords.join(" ");
+// }
+
+// let gameTitle = "the legend of zelda: breath of the wild";
+// console.log(titleCase(gameTitle));   // Output: "The Legend Of Zelda: Breath Of The Wild"
+
+// let videoTitle = "a new hope";
+// console.log(titleCase(videoTitle));   // Output: "A New Hope"
 
 // function cleanUserName(rawName) {
 
