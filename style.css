@@ -1,0 +1,25 @@
+/* Targets the entire body of the HTML document */
+body {
+    /* Removes default margin */
+    margin: 0;
+    /* Sets the body to a flex container */
+    display: flex;
+    /* Centers the canvas horizontally and vertically */
+    justify-content: center;
+    /* Aligns the canvas vertically */
+    align-items: center;
+    /* Sets the height of the body to the full viewport height */
+    height: 100vh;
+    /* Sets the background color */
+    background-color: #050505;
+    /* Hides any overflow */
+    overflow: hidden;
+}
+
+/* Targets the specific canvas element */
+Canvas {
+    /* Sets the border */
+    border: 4px solid #00ff00;
+    /* Sets the background color */
+    background-color: #000000;
+}

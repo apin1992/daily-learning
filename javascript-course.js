@@ -1,8 +1,9 @@
 
-let playList = ["song1", "song2", "song3", "song4"];
 
-playList.splice(2, 2);
-console.log(playList);
+// let playList = ["song1", "song2", "song3", "song4"];
+
+// playList.splice(2, 2);
+// console.log(playList);
 
 // playList.pop();
 
