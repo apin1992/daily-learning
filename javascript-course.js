@@ -1,5 +1,19 @@
 
+// const guestAge = 25;
 
+// const hasTicket = false;
+
+// const clubList = ["Alice", "Bob", "Charlie", "David"];
+
+// if (guestAge >= 18 && hasTicket) {
+//     console.log("Welcome to the club!");
+// } else if (guestAge < 18 && hasTicket) {
+//     console.log("Sorry, you must be at least 18 years old to enter the club.");
+// } else if (guestAge >= 18 && !hasTicket) {
+//     console.log("Sorry, you need a ticket to enter the club.");
+// } else {
+//     console.log("Sorry, you must be at least 18 years old and have a ticket to enter the club.");
+// } 
 // let playList = ["song1", "song2", "song3", "song4"];
 
 // playList.splice(2, 2);
