@@ -1,3 +1,28 @@
+let ticketCount = 100;
+
+const prizeChoice = ["car", "vacation", "cash", "gift card"];
+
+let mySelection = prizeChoice[1]; // Example selection, you can change this to test different cases
+
+switch (mySelection) {
+    case "car": 
+    ticketCount = ticketCount - 80;
+        break;
+    case "vacation":
+    ticketCount = ticketCount - 50;
+        break;
+    case "cash":
+    ticketCount = ticketCount - 20;
+        break;
+    case "gift card":
+    ticketCount = ticketCount - 10;
+        break;
+    default:
+        console.log("Invalid prize choice.");
+
+}
+
+console.log("Remaining tickets:", ticketCount);
 
 // const guestAge = 25;
 
