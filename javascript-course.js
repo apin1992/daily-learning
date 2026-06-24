@@ -1,28 +1,59 @@
-let ticketCount = 100;
 
-const prizeChoice = ["car", "vacation", "cash", "gift card"];
-
-let mySelection = prizeChoice[1]; // Example selection, you can change this to test different cases
-
-switch (mySelection) {
-    case "car": 
-    ticketCount = ticketCount - 80;
-        break;
-    case "vacation":
-    ticketCount = ticketCount - 50;
-        break;
-    case "cash":
-    ticketCount = ticketCount - 20;
-        break;
-    case "gift card":
-    ticketCount = ticketCount - 10;
-        break;
-    default:
-        console.log("Invalid prize choice.");
-
+let videoGame = {
+    title: "The Legend of Zelda: Breath of the Wild",
+    developer: "Nintendo",
+    releaseYear: 2017,
+    platforms: ["Nintendo Switch", "Wii U"],
+    isMultiplayer: false,
+    rating: 10,
+    price: 59.99,
 }
 
-console.log("Remaining tickets:", ticketCount);
+
+videoGame.price = 49.99;
+console.log(`The game ${videoGame.title} cost ${videoGame.price}`); // Output: 49.99
+// let userProfile = {
+//     username: "Boba",
+//     age: 40,
+//     isPremium: true,
+//     favoriteLanguages: ["JavaScript", "Python", "C++"]
+// };
+
+// userProfile.age = 26;
+// userProfile.country = "USA";
+
+// console.log(userProfile);
+
+// console.log(userProfile.username); // Output: Boba
+// console.log(userProfile.age); // Output: 40
+// console.log(userProfile.isPremium); // Output: true
+// console.log(userProfile.favoriteLanguages); // Output: ["JavaScript", "Python", "C++"]
+
+// let ticketCount = 100;
+
+// const prizeChoice = ["car", "vacation", "cash", "gift card"];
+
+// let mySelection = prizeChoice[1]; // Example selection, you can change this to test different cases
+
+// switch (mySelection) {
+//     case "car": 
+//     ticketCount = ticketCount - 80;
+//         break;
+//     case "vacation":
+//     ticketCount = ticketCount - 50;
+//         break;
+//     case "cash":
+//     ticketCount = ticketCount - 20;
+//         break;
+//     case "gift card":
+//     ticketCount = ticketCount - 10;
+//         break;
+//     default:
+//         console.log("Invalid prize choice.");
+
+// }
+
+// console.log("Remaining tickets:", ticketCount);
 
 // const guestAge = 25;
 
