@@ -1,17 +1,44 @@
 
-let videoGame = {
-    title: "The Legend of Zelda: Breath of the Wild",
-    developer: "Nintendo",
-    releaseYear: 2017,
-    platforms: ["Nintendo Switch", "Wii U"],
-    isMultiplayer: false,
-    rating: 10,
-    price: 59.99,
+let inventory = [
+    { item: "shield", stock: 5 },
+    { item: "sword", stock: 10 },
+    { item: "potion", stock: 20 }
+]
+
+if (inventory[0].stock > 0) {
+    console.log(`The ${inventory[0].item} is in stock!`);
+} else {
+    console.log(`The ${inventory[0].item} is out of stock!`);
 }
+// let player = { name: "Neo", level: 99, health: 100, mana: 50 };
+// let userChoice = "health";
+
+// console.log(`The player's ${userChoice} is: ${player[userChoice]}`); // Output: The player's health is: 100
 
 
-videoGame.price = 49.99;
-console.log(`The game ${videoGame.title} cost ${videoGame.price}`); // Output: 49.99
+// let shoppingCart = [
+//     { name: "Gmaing Mouse", price: 49.99 },
+//     { name: "Mechanical Keyboard", price: 89.99 },
+//     { name: "Gaming Headset", price: 79.99 },
+//     { name: "Gaming Chair", price: 199.99 }
+// ];
+
+// let firstItem = shoppingCart[2];
+// console.log(`The third item in the shopping cart is: ${firstItem.name} and it costs $${firstItem.price}`); // Output: The first item in the shopping cart is: Gaming Mouse and it costs $49.99
+
+// let videoGame = {
+//     title: "The Legend of Zelda: Breath of the Wild",
+//     developer: "Nintendo",
+//     releaseYear: 2017,
+//     platforms: ["Nintendo Switch", "Wii U"],
+//     isMultiplayer: false,
+//     rating: 10,
+//     price: 59.99,
+// }
+
+
+// videoGame.price = 49.99;
+// console.log(`The game ${videoGame.title} cost ${videoGame.price}`); // Output: 49.99
 // let userProfile = {
 //     username: "Boba",
 //     age: 40,
