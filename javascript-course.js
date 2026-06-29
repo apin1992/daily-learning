@@ -1,15 +1,41 @@
 
-let inventory = [
-    { item: "shield", stock: 5 },
-    { item: "sword", stock: 10 },
-    { item: "potion", stock: 20 }
-]
 
-if (inventory[0].stock > 0) {
-    console.log(`The ${inventory[0].item} is in stock!`);
-} else {
-    console.log(`The ${inventory[0].item} is out of stock!`);
-}
+
+// let prices = [10, 20, 130, 240, 50];
+
+// for (let i = 0; i < prices.length; i++) {
+//     if (prices[i] > 40) {
+//         console.log("Found an epensive item: " + prices[i]);
+//     }
+// }
+
+// let members = ["Alex", "Bob", "Charlie", "David"];
+
+// // We stop wen 'i' is no longer less than the total number o fmember (4)
+// for (let i = 0; i < members.length; i ++) {
+//     console.log("Welcom to the team, " + members[i] + "!");
+
+// }
+
+// for (let i = 0; i < 4; i++) {
+//     console.log("Looping! Current index is: " + i);
+// }
+
+// for (let i = 0; i <= 5; i++) {
+//     console.log("This is repetition number: " + i);
+// }
+
+// let inventory = [
+//     { item: "shield", stock: 5 },
+//     { item: "sword", stock: 10 },
+//     { item: "potion", stock: 20 }
+// ]
+
+// if (inventory[0].stock > 0) {
+//     console.log(`The ${inventory[0].item} is in stock!`);
+// } else {
+//     console.log(`The ${inventory[0].item} is out of stock!`);
+// }
 // let player = { name: "Neo", level: 99, health: 100, mana: 50 };
 // let userChoice = "health";
 
