@@ -1,12 +1,20 @@
 
-// input
-
-function doubleNumber(number) {
-    return number * 2; // this exsit the funciton and spits the answer out
+function calculateTotal(price, tax) {
+    return price + (price * tax);
 }
 
-let myResult = doubleNumber(5); // this is the input
-console.log(myResult); // Output: 10
+let finalInvoice = calculateTotal(100, 0.3);
+
+console.log(finalInvoice); // Output: 
+
+// input
+
+// function doubleNumber(number) {
+//     return number * 2; // this exsit the funciton and spits the answer out
+// }
+
+// let myResult = doubleNumber(5); // this is the input
+// console.log(myResult); // Output: 10
 
 // 'name' is a placeholder (parameter)
 // function sayHello(name) {
